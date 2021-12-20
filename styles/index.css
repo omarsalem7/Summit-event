@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/*
+black: #272A31 
+orange: #EC5242
+gray: #D3D3D3
+*/
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  font-size: 30px;
+  margin: 20px 0 0 20px;
+}
+
+i:hover {
+  color: white;
+}
+
+.header {
+  background-image: url('../assets/mobile-bg.png');
+  background-size: cover;
+  background-position: center;
+  margin-top: -50px;
+  padding: 110px 10px 45px 10px;
+  color: #585858;
+}
+
+.header__header1 {
+  font-family: 'Lato', sans-serif;
+  padding: 20px 0;
+  font-size: 1.9em;
+  font-weight: 900;
+  color: #ec5242;
+}
+
+.header__text {
+  padding: 20px;
+  border: 3.5px solid #fff;
+  background-color: #f7f7f7;
+  margin: 5px;
+}
+
+.main {
+  background-image: url('../assets/main-bg.png');
+  background-color: #272a31;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.main__line {
+  width: 15%;
+  height: 2px;
+  background-color: #ec5242;
+  margin-top: 15px;
+}
+
+.main__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* sperate */
+
+.main__List {
+  padding-top: 30px;
+}
+
+.main__List__item {
+  display: grid;
+  grid-template-columns: 18% 18% 58%;
+  background-color: #5f5f5f50;
+  grid-column-gap: 3%;
+  padding: 4% 1%;
+  margin: 20px;
+}
+
+.main__List__item__SubItem {
+  align-self: center;
+}
+
+.main__List__item__title {
+  color: #ec5242;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.main-btn {
+  padding: 30px 15%;
+  background-color: #ec5242;
+  color: #fff;
+  border-style: none;
+  font-size: 20px;
+}
+
+/**************speakers styles****************/
+.speakers {
+  min-height: 500px;
+  padding: 10px;
+}
+
+.speakers__line {
+  width: 15%;
+  height: 2px;
+  background-color: #ec5242;
+  margin-top: 15px;
+}
+
+.speakers__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speakers__list__item {
+  display: grid;
+  grid-template-columns: 35% 57%;
+  grid-column-gap: 8%;
+  margin-top: 40px;
+}
+
+.speaker__list__item__img {
+  background-image: url('../assets/chess.jpg');
+  background-size: 40% 40%;
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 0;
+}
+
+.speaker__list__item__img img {
+  width: 100%;
+  height: 100%;
+  padding-left: 12%;
+  padding-top: 12%;
+}
+
+.speaker__list__item__content {
+  padding-top: 8%;
+}
+
+.speaker__list__item__content__bio {
+  font-style: italic;
+  color: #ec5242;
+}
+
+.speakers__bio__line {
+  width: 8%;
+  height: 2px;
+  background-color: #d3d3d3;
+  margin: 10px 0;
+}
+
+.speaker__list__item__content p {
+  font-size: 12px;
+}

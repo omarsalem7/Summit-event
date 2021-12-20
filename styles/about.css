@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+/*
+black: #272A31 
+orange: #EC5242
+gray: #D3D3D3
+*/
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #f7f7f7;
+}
+
+i {
+  font-size: 30px;
+  margin: 20px 0 0 20px;
+}
+
+.header {
+  background-image: url('../assets/about-bg.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #585858;
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.header h3 {
+  color: #ec5242;
+}
+
+.header__header1 {
+  font-family: 'COCOGOOSE', sans-serif;
+  padding: 20px 0;
+  font-size: 1.9em;
+  font-weight: 700;
+  color: #ec5242;
+}
+
+.header__text {
+  padding: 15px;
+  border: 2px solid #f0f0f0;
+  background-color: #fff;
+  margin: 5px;
+}
+
+.header__Email {
+  font-weight: bold;
+  font-style: underline;
+}
+
+.main {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.main__line {
+  width: 8%;
+  height: 2px;
+  background-color: #ec5242;
+  margin: 15px 0;
+}
+
+.main__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__logo {
+  border: 2px solid #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__logo img {
+  width: 30%;
+  height: 30%;
+}
+
+.time {
+  text-align: center;
+  padding: 30px;
+}
+
+.time__one {
+  color: white;
+  background-image: url('../assets/greek.jpeg');
+  min-height: 195px;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: 40px;
+  box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+}
+
+.time__text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.time__two {
+  margin-top: 50px;
+  position: relative;
+  color: white;
+  background-image: url('../assets/american.jpeg');
+  min-height: 195px;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100%;
+  box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+}
+
+.partner {
+  background-color: #414246;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.partner h2 {
+  color: #fff;
+  padding-top: 30px;
+}
+
+.partner__logos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 20px;
+  color: #8d8d8d;
+  margin-top: 10px;
+}
+
+.partner__logos span {
+  padding-bottom: 15px;
+  margin: 10px;
+}
+
+.partner__logos__type1 {
+  font-family: 'Lato', sans-serif;
+}
+
+.partner__logos__type2 {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__container img {
+  width: 20%;
+  height: 15%;
+}
+
+.footer__container__content {
+  align-self: center;
+}
