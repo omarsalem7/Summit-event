@@ -5,12 +5,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conference</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 
 <body>
+    <!-- overlay mobile menu code -->
+    <div id="navbar-overlay" class="overlay-background">
+        <a class="closeIcon"><img src="./assets/close-icon.png" alt="Close icon"></a>
+        <ul class="overlay-content">
+            <li><a class="one" href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#sponsor">Sponsors</a></li>
+            <li class="menu-item-border"><a class="item-link" href="#">SL campaign </a></li>
+        </ul>
+    </div>
 
+    <!-- DESKTOP: social media header   -->
+    <div class="social">
+        <div> <i class="fab fa-twitter"></i></div>
+        <div> <i class="fab fa-facebook-f"></i></div>
+        <div>English</div>
+        <div>My Page</div>
+        <div>Logout</div>
+    </div>
+
+    <!-- nav -->
+    <header class="nav">
+        <nav class="navbar-humberger">
+            <div class="icon-tab" id="humberger">
+                <div class="tab"></div>
+                <div class="tab"></div>
+                <div class="tab"></div>
+            </div>
+        </nav>
+        <ul class="nav__list">
+            <li class="nav__list__item nav__list__logo"><a href="index.html"><img src="./assets/nav-startup.jpg"
+                        alt="startup" /></a></li>
+            <li><a class="highlited" href="./about.html">About</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#sponsor">Sponser</a></li>
+            <li><a href="#">News</a></li>
+            <li class="item-border"><a href="#" class="item-link">SL campaign</a></li>
+        </ul>
+    </header>
+
+    <!-- header section -->
+    <header class="header">
+        <h2 class="header__header2">"Hello With All"</h2>
+        <h1 class="header__header1">GLOBAL SUMMIT ABOUT BUSINNES<span> 2022</span></h1>
+        <p class="header__text">
+            The last year was the strongest change happened in all our lives on the personal and professional scales due
+            to covid 19 that after a while became our new normal.
+        </p>
+        <h2 class="header__date">2022.01.1 (SAT) ~ 3(MON)</h2>
+        <p>@ Pyramisa Hotel Conference Hall</p>
+    </header>
+
+    <!-- main progeram -->
+    <main class="main" id="program">
+        <div class="main__heading">
+            <h2>Main Program</h2>
+            <div class="main__line"></div>
+        </div>
+        <div class="main__List">
+            <div class="main__List__item">
+                <div class="main__List__item__container">
+                    <img class="main__List__item__SubItem" src="./assets/lecture.png" alt="lecture">
+                </div>
+                <h4 class="main__List__item__SubItem main__List__item__title"> Lecture</h4>
+                <p class="main__List__item__SubItem ">
+                    Listen to all speakers from various regions and learn about trends
+                    in new normal business in all the world.
+                </p>
+            </div>
+            <div class="main__List__item">
+                <div class="main__List__item__container">
+                    <img class="main__List__item__SubItem" src="./assets/CC.png" alt="CC">
+                </div>
+                <h4 class="main__List__item__SubItem main__List__item__title"> Exhibition</h4>
+                <p class="main__List__item__SubItem ">
+                    Let's meet the innovators from various fields who share their latest
+                    used technologies in new normal business.
+                </p>
+            </div>
+            <div class="main__List__item">
+                <div class="main__List__item__container">
+                    <img class="main__List__item__SubItem" src="./assets/forum.png" alt="forum">
+                </div>
+                <h4 class="main__List__item__SubItem main__List__item__title"> Forum</h4>
+                <p class="main__List__item__SubItem ">
+                    It's the time to share our thoughts and opinions with experts and learn about the new
+                    normal business
+                </p>
+            </div>
+            <div class="main__List__item">
+                <div class="main__List__item__container">
+                    <img class="main__List__item__SubItem" src="./assets/workshop.png" alt="workshop">
+
+                </div>
+                <h4 class="main__List__item__SubItem main__List__item__title"> Workshop</h4>
+                <p class="main__List__item__SubItem ">
+                    You can create your own creations by using your hand in open source instead of watching them.
+                </p>
+            </div>
+            <div class="main__List__item">
+                <div class="main__List__item__container">
+                    <img class="main__List__item__SubItem" src="./assets/ignite.png" alt="ignite">
+                </div>
+                <h4 class="main__List__item__SubItem main__List__item__title">CC Ignite</h4>
+                <p class="main__List__item__SubItem ">
+                    Create opportunities to freely network with new normal business from around the world.
+                </p>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="main-btn" type="button">
+                Join cc summit 2022
+            </button>
+        </div>
+    </main>
+    <!-- featured speakers -->
+    <section class="speakers">
+        <div class="speakers__heading">
+            <h2>Featured Speakers</h2>
+            <div class="speakers__line"></div>
+        </div>
+        <div class="speakers__container">
+
+
+        </div>
+        <button class="speaker-btn">MORE</button>
+    </section>
+
+    <!-- DESKTOP: partner section -->
+    <section class="partner" id="sponsor">
+        <h2>Partner</h2>
+        <div class="main__heading">
+            <div class="main__line"></div>
+        </div>
+        <div class="partner__logos">
+            <span class="partner__logos__type1">IBM</span>
+            <span class="partner__logos__type2">Microsoft</span>
+            <span class="partner__logos__type2">Amideast</span>
+            <span class="partner__logos__type1">S PLus</span>
+            <span class="partner__logos__type1">USAID</span>
+            <span class="partner__logos__type2">Nokia</span>
+        </div>
+
+    </section>
+
+    <!-- DESKTOP: footer -->
+    <footer>
+        <div class="footer__container">
+            <img src="./assets/nav-startup.jpg" alt="startup">
+            <div class="footer__container__content">
+                <p>@ 2022 startup land</p>
+                <p>Startup Land is a community for young entrepreneurs </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/speakers.js"></script>
 </body>
 
 </html>

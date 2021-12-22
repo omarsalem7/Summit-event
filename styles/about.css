@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#humberger {
+  display: block;
+}
+
+.nav {
+  background-color: #f7f7f7;
+  margin-top: -20px;
+  padding-top: 20px;
+}
+
+i {
+  font-size: 30px;
+  margin: -50px 0 0 20px;
+  cursor: pointer;
+}
+
+.header {
+  background-image: url('../assets/about-bg.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #585858;
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  line-height: 25px;
+}
+
+.header h3 {
+  color: #ec5242;
+}
+
+.header__header1 {
+  font-family: 'COCOGOOSE', sans-serif;
+  padding: 20px 0;
+  font-size: 1.9em;
+  font-weight: 700;
+  color: #ec5242;
+  line-height: 35px;
+}
+
+.header__text {
+  padding: 15px;
+  border: 2px solid #f0f0f0;
+  background-color: #fff;
+  margin: 5px;
+}
+
+.header__Email {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.main {
+  text-align: center;
+  border-bottom: 2px solid #f0f0f0;
+  padding: 10% 7%;
+}
+
+.main__line {
+  width: 8%;
+  height: 2px;
+  background-color: #ec5242;
+  margin: 15px 0;
+}
+
+.main__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main p {
+  margin-bottom: 20px;
+}
+
+.main__logo {
+  border: 2px solid #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__logo img {
+  width: 30%;
+  height: 30%;
+}
+
+.time {
+  text-align: center;
+  padding: 30px;
+}
+
+.time__p {
+  padding: 0 20%;
+}
+
+.time__one {
+  color: white;
+  background-image: url('../assets/greek.jpeg');
+  min-height: 195px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: 40px;
+  box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+}
+
+.time__text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.time__text h2 {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 500;
+}
+
+.time__two {
+  margin-top: 50px;
+  position: relative;
+  color: white;
+  background-image: url('../assets/american.jpeg');
+  min-height: 195px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+}
+
+.partner {
+  background-color: #414246;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.partner h2 {
+  color: #fff;
+  padding-top: 30px;
+}
+
+.partner__logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 20px;
+  color: #8d8d8d;
+  padding: 20px 0;
+}
+
+.partner__logos span {
+  padding: 0 7px 15px 7px;
+  margin: 10px;
+}
+
+.partner__logos__type1 {
+  font-family: 'Lato', sans-serif;
+}
+
+.partner__logos__type2 {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer__container img {
+  width: 12%;
+  height: 12%;
+  padding: 0 5% 0 20%;
+}
+
+.footer__container__content {
+  align-self: center;
+}
+
+.footer-img-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .header {
+    padding: 0 14% 40px 14%;
+  }
+
+  .header h3 {
+    color: #ec5242;
+  }
+
+  .header__header1 {
+    font-family: 'COCOGOOSE', sans-serif;
+    padding: 20px 0;
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #ec5242;
+  }
+
+  .header__text {
+    padding: 25px;
+    margin: 20px;
+    line-height: 23px;
+  }
+
+  .header__Email {
+    text-decoration: underline;
+    padding-top: 10px;
+  }
+
+  .main {
+    padding: 5% 25%;
+  }
+
+  .time__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    padding: 0 11%;
+  }
+
+  .time__one {
+    color: white;
+    background-image: url('../assets/greek.jpeg');
+    min-height: 195px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin-top: 0;
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+  }
+
+  .time__text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
+
+  .time__text h2 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 500;
+  }
+
+  .time__two {
+    margin-top: 0;
+    position: relative;
+    color: white;
+    background-image: url('../assets/american.jpeg');
+    min-height: 195px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+  }
+
+  .time__p {
+    padding: 0 25% 3% 25%;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  footer {
+    background-color: #2e2e2e;
+    color: #fff;
+  }
+
+  .footer-img-mobile {
+    display: none;
+  }
+
+  .footer-img-desktop {
+    display: block;
+  }
+}
