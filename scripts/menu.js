@@ -25,3 +25,10 @@ closeIcon.addEventListener('click', () => {
   header.classList.remove('blur');
   main.classList.remove('blur');
 });
+const overlayContent = document.querySelector('.overlay-content');
+overlayContent.addEventListener('click', () => {
+  navbarOverlay.style.width = '0%';
+  navbar.classList.remove('blur');
+  header.classList.remove('blur');
+  main.classList.remove('blur');
+});
