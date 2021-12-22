@@ -225,8 +225,8 @@ body {
 
   .header {
     padding-left: 10%;
-    height: 90vh;
-    padding-top: 10%;
+    height: 95vh;
+    padding-top: 5%;
   }
 
   .header__header2 {
@@ -234,8 +234,8 @@ body {
   }
 
   .header__header1 {
-    width: 50%;
-    font-size: 5.1em;
+    width: 70%;
+    font-size: 4.3em;
   }
 
   .header__header1 span {
@@ -246,14 +246,14 @@ body {
     padding: 20px;
     border: 3.5px solid #fff;
     background-color: #f7f7f7;
-    margin: 30px 0;
+    margin: 20px 0;
     width: 35%;
   }
 
   .header__date {
     font-family: 'COCOGOOSE', sans-serif;
-    font-size: 2em;
-    padding: 20px 0 15px 0;
+    font-size: 1.5em;
+    padding: 10px 0 10px 0;
   }
 
   .main__List {
