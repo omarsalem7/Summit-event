@@ -24,7 +24,7 @@ Main features of the project:
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/)
+[Live Demo Link](https://omarsalem7.github.io/Summit-event//)
 
 ## Authors
 
