@@ -229,6 +229,7 @@ body {
 
   .header {
     padding-left: 10%;
+    height: 100vh;
   }
 
   .header__header1 {
