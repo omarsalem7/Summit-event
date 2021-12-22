@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #humberger {
   display: block;
 }
@@ -63,6 +67,10 @@ i {
   padding: 8px;
   color: #ec5242;
   width: 60%;
+}
+
+a {
+  color: #757474;
 }
 
 .item-link {
