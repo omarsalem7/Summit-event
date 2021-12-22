@@ -7,7 +7,7 @@
 ![screenshot](./assets/mac-mock.png)
 ![screenshot](./assets/mobile-mock.png)
 
-Main features of the project:
+Main features of this project:
 
 - This project files created using github workflow
 - There are two pages home and about
