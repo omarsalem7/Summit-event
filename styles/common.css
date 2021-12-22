@@ -38,6 +38,10 @@ i {
   text-align: left;
 }
 
+a {
+  color: #757474;
+}
+
 .overlay-background a {
   padding: 15px;
   text-decoration: none;
@@ -69,10 +73,6 @@ i {
   width: 60%;
 }
 
-a {
-  color: #757474;
-}
-
 .item-link {
   color: #ec5242;
 }
@@ -83,7 +83,6 @@ a:hover {
 
 @media screen and (min-width: 768px) {
   .social {
-    display: block;
     height: 30px;
     background-color: #272a31;
     color: #fff;
@@ -94,10 +93,6 @@ a:hover {
     justify-content: flex-end;
     align-items: center;
     padding-right: 15%;
-  }
-
-  a.one:link {
-    color: #ff0000;
   }
 
   .social > div {

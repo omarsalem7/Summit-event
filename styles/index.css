@@ -4,7 +4,7 @@
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  color: #555555;
+  color: #555;
 }
 
 * {
@@ -20,7 +20,7 @@ body {
   display: block;
   position: relative;
   margin-top: -50px;
-  color: #555555;
+  color: #555;
   z-index: -1;
 }
 
@@ -123,7 +123,6 @@ body {
   font-size: 20px;
 }
 
-/**************speakers styles****************/
 .speakers {
   padding: 20px;
 }
@@ -192,7 +191,7 @@ body {
   background-color: #fff;
   border: 1px solid #d3d3d3;
   margin-top: 70px;
-  color: #555555;
+  color: #555;
 }
 
 .partner {
