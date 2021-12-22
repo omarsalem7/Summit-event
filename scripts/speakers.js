@@ -31,7 +31,7 @@ const speakersData = [
     id: 5,
     name: 'Hunter Bergman',
     topic: 'Story Telling - Entrepreneurship In Nebraska',
-    bio: 'he serves as the Culture Coordinator for the UNL Center for Entrepreneurship., but he’s known most for his YouTube channel.',
+    bio: 'he serves as the Culture Coordinator for the UNL Center for Entrepreneurship.',
     urlImage: './assets/hunter.jpg',
   },
   {
