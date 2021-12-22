@@ -7,25 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 </head>
 
 <body>
-    <!-- DESKTOP: social media header   -->
-    <di>
 
-    </di>
+    <!-- overlay mobile menu code -->
+    <div id="navbar-overlay" class="overlay-background">
+        <a class="closeIcon"><img src="./assets/close-icon.png" alt="Close icon"></a>
+        <ul class="overlay-content">
+            <li><a class="highlited" href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#sponsor">Sponsors</a></li>
+            <li class="menu-item-border"><a class="item-link" href="#">SL campaign </a></li>
+        </ul>
+    </div>
+    </div>
+
+    <!-- DESKTOP: social media header   -->
+    <div class="social">
+        <div> <i class="fab fa-twitter"></i></div>
+        <div> <i class="fab fa-facebook-f"></i></div>
+        <div>English</div>
+        <div>My Page</div>
+        <div>Logout</div>
+    </div>
 
     <!-- nav -->
     <nav class="nav">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars" id="humberger"></i>
+        <ul class="nav__list">
+            <li class="nav__list__item nav__list__logo"><a href="about.html"><img src="./assets/nav-startup.jpg"
+                        alt="startup" /></a></li>
+            <li><a class="highlited" href="about.html">About</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Sponser</a></li>
+            <li><a href="#">News</a></li>
+            <li class="item-border"><a href="#" class="item-link">SL campaign</a></li>
+        </ul>
     </nav>
 
     <!-- header section -->
     <header class="header">
-        <h3>"Hello With All"</h3>
+        <!-- <h3>"Hello With All"</h3> -->
         <h1 class="header__header1">STARTUP LAND SUMMIT 2022</h1>
         <p class="header__text">
             The last year was the strongest change happened in all our lives on the personal and professional scales We
@@ -46,7 +75,7 @@
     </header>
 
     <!-- main section -->
-    <main class="main">
+    <main class="main" id="program">
         <div class="main__heading">
             <h2>Creative commons </h2>
             <div class="main__line"></div>
@@ -66,29 +95,31 @@
         <div class="main__heading">
             <div class="main__line"></div>
         </div>
-        <p>
+        <p class="time__p">
             Take a look at the last two startup
             land Summits took place in the greek campus
             and american university
         </p>
-        <div class="time__one">
-            <div class="time__text">
-                <h2>2020</h2>
-                <p>Startup land summit 2020 in American University</p>
+        <div class="time__container">
+            <div class="time__one">
+                <div class="time__text">
+                    <h2>2020</h2>
+                    <p>Startup land summit 2020 in American University</p>
+                </div>
             </div>
-        </div>
 
-        <div class="time__two">
-            <div class="time__text">
-                <h2>2019</h2>
-                <p>Startup land summit 2019 in Greek campus</p>
+            <div class="time__two">
+                <div class="time__text">
+                    <h2>2019</h2>
+                    <p>Startup land summit 2019 in Greek campus</p>
 
+                </div>
             </div>
         </div>
     </section>
 
     <!-- DESKTOP: partner section -->
-    <section class="partner">
+    <section class="partner" id="sponsor">
         <h2>Partner</h2>
         <div class="main__heading">
             <div class="main__line"></div>
@@ -114,7 +145,7 @@
             </div>
         </div>
     </footer>
-
+    <script type="text/javascript" src="./scripts/menu.js"></script>
 </body>
 
 </html>

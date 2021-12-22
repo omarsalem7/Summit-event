@@ -15,13 +15,20 @@ body {
   padding: 0;
 }
 
+#humberger {
+  display: block;
+}
+
 .nav {
   background-color: #f7f7f7;
+  margin-top: -20px;
+  padding-top: 20px;
 }
 
 i {
   font-size: 30px;
-  margin: 20px 0 0 20px;
+  margin: -50px 0 0 20px;
+  cursor: pointer;
 }
 
 .header {
@@ -33,6 +40,7 @@ i {
   text-align: center;
   padding: 20px;
   background-color: #f7f7f7;
+  line-height: 25px;
 }
 
 .header h3 {
@@ -45,6 +53,7 @@ i {
   font-size: 1.9em;
   font-weight: 700;
   color: #ec5242;
+  line-height: 35px;
 }
 
 .header__text {
@@ -56,13 +65,14 @@ i {
 
 .header__Email {
   font-weight: bold;
-  font-style: underline;
+  text-decoration: underline;
 }
 
 .main {
   text-align: center;
   padding: 20px;
   border-bottom: 2px solid #f0f0f0;
+  padding: 10% 7%;
 }
 
 .main__line {
@@ -76,6 +86,10 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.main p {
+  margin-bottom: 20px;
 }
 
 .main__logo {
@@ -95,6 +109,10 @@ i {
   padding: 30px;
 }
 
+.time__p {
+  padding: 0 20%;
+}
+
 .time__one {
   color: white;
   background-image: url('../assets/greek.jpeg');
@@ -112,6 +130,11 @@ i {
   top: 50%;
   right: 50%;
   transform: translate(50%, -50%);
+}
+
+.time__text h2 {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 500;
 }
 
 .time__two {
@@ -172,4 +195,88 @@ i {
 
 .footer__container__content {
   align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .header {
+    padding: 0 14% 40px 14%;
+  }
+
+  .header h3 {
+    color: #ec5242;
+  }
+
+  .header__header1 {
+    font-family: 'COCOGOOSE', sans-serif;
+    padding: 20px 0;
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #ec5242;
+  }
+
+  .header__text {
+    padding: 25px;
+    margin: 20px;
+    line-height: 23px;
+  }
+
+  .header__Email {
+    text-decoration: underline;
+    padding-top: 10px;
+  }
+
+  .main {
+    padding: 5% 25%;
+  }
+
+  .time__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    padding: 0 11%;
+  }
+
+  .time__one {
+    color: white;
+    background-image: url('../assets/greek.jpeg');
+    min-height: 195px;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin-top: 0;
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+  }
+
+  .time__text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
+
+  .time__text h2 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 500;
+  }
+
+  .time__two {
+    margin-top: 0;
+    position: relative;
+    color: white;
+    background-image: url('../assets/american.jpeg');
+    min-height: 195px;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+  }
+
+  .time__p {
+    padding: 0 25% 3% 25%;
+  }
 }
