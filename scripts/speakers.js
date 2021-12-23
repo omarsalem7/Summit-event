@@ -48,7 +48,8 @@ const speakersContainer = document.querySelector('.speakers__container');
 speakersData.forEach((speaker) => {
   const speakerProject = document.createElement('div');
   let speakerContent = '';
-  speakerContent = `   <div class="speakers__list__item">
+  speakerContent = `  
+  <div class="speakers__list__item">
   <div class="speaker__list__item__img">
       <img src=${speaker.urlImage} alt="${speaker.name}" />
   </div>
