@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Portfolio Project
+# Summit Event 2022
 
 > This website about startup land summit 2022 contains speakers, program and sponsors.
 
