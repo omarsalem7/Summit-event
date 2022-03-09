@@ -38,6 +38,12 @@ Main features of this project:
 
 Give a ⭐️ if you like this project!
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
 ## Acknowledgments
 
 Thanks to [Cindy Shin](https://www.behance.net/adagio07) for her design to build this project.
